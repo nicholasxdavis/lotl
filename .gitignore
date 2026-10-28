@@ -1,0 +1,24 @@
+node_modules/
+dist/
+.lotl-cache/
+*.rbxl
+*.rbxlx
+.env
+.env.*
+lotl.local.json
+lotl.json
+*.log
+.DS_Store
+Thumbs.db
+
+# Operator-local / private
+.development/
+.takefrom/
+my-game/
+place/
+
+# Generated per-machine MCP configs
+.cursor/mcp.json
+.mcp.json
+.vscode/mcp.json
+.codex/

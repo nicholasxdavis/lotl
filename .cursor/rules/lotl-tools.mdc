@@ -1,0 +1,16 @@
+---
+description: Which Lotl vs Roblox_Studio tools to use for each job
+alwaysApply: true
+---
+
+# Tool split
+
+- Disk scripts: edit `place/src`. Argon/Rojo/Script Sync own them.
+- Official first-party tools (upload image, edit script, play, console, mouse, keyboard, character nav, generate mesh/material/procedural, execute Luau, search asset, screen capture): `Roblox_Studio`. Call `lotl_studio_catalog` if unsure.
+- Enable `screen_capture`. Visual work is blind without it.
+- placeId, selection, transform (move/size), properties, create/destroy, camera, logs, undo, eval: `lotl_studio`
+- Marketplace: official `search_asset` / `insert_asset`, then Lotl parent/transform
+- Computer Use: last resort only. Never for DataModel, files, playtest, or billing.
+- Setup, checks, engine dump, marketplace search, Open Cloud, billing: Lotl
+- Keys: `ROBLOX_API_KEY` in the environment only. Never print it.
+- New game passes and developer products stay off sale unless the operator sells them from the CLI.

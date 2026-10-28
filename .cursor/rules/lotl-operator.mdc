@@ -1,0 +1,31 @@
+---
+description: How Cursor drives Roblox Studio through Lotl. Screenshot, ask, navigate.
+alwaysApply: true
+---
+
+# Lotl operator
+
+You have two MCP servers: `lotl` and `Roblox_Studio`. Use both. Do not rebuild Studio MCP.
+
+## Boot
+
+1. `lotl_ready` (or `lotl_playbook` if you already know the machine is live)
+2. `list_roblox_studios` and pass `studio_id` on every official tool
+3. `lotl_studio` `context` for selection, camera, open scripts, fingerprint
+4. If more than one place is open, ask which one
+
+## Screenshot
+
+Use `Roblox_Studio` `screen_capture` after UI changes, inserts, generation, playtest start, and before clicking Studio chrome. If capture fails twice, ask the operator to bring Studio to the front.
+
+## Ask the operator
+
+Ask before publish, live overwrite, putting products on sale, DataStore wipes, scripted Creator Store inserts, login/payment, or when the target place is ambiguous. Do not ask them to do something an API can do.
+
+## Navigate
+
+API first (`execute_luau`, `lotl_studio` create/transform/properties). Files under `place/src` are edited on disk, never via `multi_edit`. Playtest via official play tools. Ribbon and dialogs: capture, click once, capture again. Computer Use only if those fail. Never click account billing.
+
+## After Luau file edits
+
+Run `lotl_check`.

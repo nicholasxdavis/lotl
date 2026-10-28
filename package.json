@@ -1,0 +1,32 @@
+{
+  "name": "lotl",
+  "version": "0.2.0",
+  "description": "Harness, MCP server, and Roblox Studio plugin that bridges Cursor, Claude Code, and Codex to a live Studio place.",
+  "type": "module",
+  "bin": {
+    "lotl": "./bin/lotl.mjs"
+  },
+  "scripts": {
+    "lotl": "tsx src/cli.ts",
+    "mcp": "tsx src/cli.ts mcp",
+    "doctor": "tsx src/cli.ts doctor",
+    "setup": "tsx src/cli.ts setup",
+    "ready": "tsx src/cli.ts ready",
+    "test": "tsx --test tests/protocol.test.ts tests/doctor.test.ts tests/bridge.test.ts tests/lock.test.ts tests/plugin.test.ts tests/hosts.test.ts tests/chat.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.1",
+    "commander": "^14.0.2",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
