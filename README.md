@@ -4,7 +4,26 @@
       <img src="https://raw.githubusercontent.com/nicholasxdavis/lotl/main/demo/icon.png" alt="Lotl logo" width="80" />
     </td>
     <td>
-      <strong>Lotl</strong> (axolotl) is a all-in-one Harness, MCP server, and Roblox Studio plugin. It bridges agents like Cursor, Claude Code, Codex with a live Studio place, enabling development across files, configuration, UI, marketplace, billing, playtesting, and Open Cloud.
+      <strong>Lotl</strong> (axolotl) is an all-in-one Harness, MCP server, and Roblox Studio plugin. It bridges agents like Cursor, Claude Code, Codex with a live Studio place, enabling development across files, configuration, UI, marketplace, billing, playtesting, and Open Cloud.
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://raw.githubusercontent.com/nicholasxdavis/lotl/main/demo/screenshot-1.png" alt="Lotl screenshot 1" width="100%" />
+    </td>
+    <td width="50%">
+      <img src="https://raw.githubusercontent.com/nicholasxdavis/lotl/main/demo/screenshot-2.png" alt="Lotl screenshot 2" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="https://raw.githubusercontent.com/nicholasxdavis/lotl/main/demo/screenshot-3.png" alt="Lotl screenshot 3" width="100%" />
+    </td>
+    <td width="50%">
+      <img src="https://raw.githubusercontent.com/nicholasxdavis/lotl/main/demo/screenshot-4.png" alt="Lotl screenshot 4" width="100%" />
     </td>
   </tr>
 </table>
